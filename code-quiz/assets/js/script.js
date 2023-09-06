@@ -50,7 +50,7 @@ var questionCounter = 0;
 var currentScore = 99;
 var highScores = [];
 
-// starts score counter upon quiz start
+// starts score counter
 var scoreCounter = function() {
     scoreEl.textContent = "Current score: 100"
 
