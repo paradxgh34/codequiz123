@@ -1,4 +1,5 @@
-﻿# codequiz123
+
+ # codequiz123
 
 
 ## User Story
@@ -8,6 +9,7 @@ AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
 
+https://paradxgh34.github.io/codequiz123/
 
 Credits https://developer.mozilla.org/en-US/ - used this site to learn the basics of Java Script and Web based API's.
 https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
