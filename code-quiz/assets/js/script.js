@@ -32,7 +32,7 @@ var codeQuiz = [
         answer: 'b'
     },
     {
-        question: 'Why event handlers is needed in JS?',
+        question: 'Why are event handlers is needed in JS?',
         a: 'Allows JavaScript code to alter the behaviour of windows',
         b: 'Adds innerHTML page to the code',
         c: 'Change the server location',
@@ -104,7 +104,7 @@ var checkAnswer = function(event) {
     // checks button value against correct answer in array
     if (clickedBtn === codeQuiz[questionCounter].answer) {
         background.className = "correct";
-        feedbackEl.textContent = "CORRECT!"
+        feedbackEl.textContent = "CORRECT ANSWER"
     }
     else {
         if (currentScore >= 5) {
@@ -113,7 +113,7 @@ var checkAnswer = function(event) {
             }
         background.className = "incorrect";
         feedbackEl.classList.remove("hide");
-        feedbackEl.textContent = "INCORRECT!"
+        feedbackEl.textContent = "INCORRECT ANSWER"
     }
 
     questionCounter++
@@ -130,7 +130,7 @@ var endQuiz = function() {
     quizEl.remove();
     scoreEl.remove();
  
-    endEl.innerHTML = "<h2 class='end-title'>That's all she wrote!</h2><p>Your final score is " + currentScore + ".  Please enter your name.</p>";
+    endEl.innerHTML = "<h2 class='end-title'>Coding Quiz Complete</h2><p>Your final score is " + currentScore + ".  Please enter your name.</p>";
 
     var scoreForm = document.createElement("form");
     scoreForm.id = "score-form";
