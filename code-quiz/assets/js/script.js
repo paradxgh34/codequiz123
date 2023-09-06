@@ -16,27 +16,27 @@ var codeQuiz = [
         answer: 'c'
     },
     {
-        question: 'Which of the following is not a way to write a function?',
-        a: 'let myFunc = function() { ... };',
-        b: 'const myFunc = () => { ... };',
-        c: 'var myFunc() = function { ... };',
-        d: 'function myFunc() { ... };',
-        answer: 'c'
-    },
-    {
-        question: 'What type of data is "36"?',
-        a: 'undefined',
-        b: 'number',
-        c: 'boolean',
-        d: 'string',
+        question: 'Which of the following is not javascript data types?',
+        a: 'Null type',
+        b: 'Undefined type',
+        c: 'Number type',
+        d: 'All of the mentioned',
         answer: 'd'
     },
     {
-        question: 'What will parseInt(9.57) return?',
-        a: '9',
-        b: '9.57',
-        c: '9.6',
-        d: '10',
+        question: 'What is the basic difference between JavaScript and Java?',
+        a: 'Functions are considered as fields',
+        b: 'Functions are values, and there is no hard distinction between methods and fields',
+        c: 'Variables are specific',
+        d: 'There is no difference',
+        answer: 'b'
+    },
+    {
+        question: 'Why event handlers is needed in JS?',
+        a: 'Allows JavaScript code to alter the behaviour of windows',
+        b: 'Adds innerHTML page to the code',
+        c: 'Change the server location',
+        d: 'Performs handling of exceptions and occurrences',
         answer: 'a'
     }
 ]
